@@ -28,6 +28,12 @@
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-button .button-txt{
+    margin-right: 10px;
 }
 .cart-button:hover{
     background-color: rgb(223, 81, 39);
