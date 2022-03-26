@@ -18,6 +18,9 @@ const Book = () => {
         const newCart = [...cart, product.name];
         setCart(newCart);
     }
+    const removeProduct = () => {
+        setCart([]);
+    }
 
     return (
         <div >
@@ -33,7 +36,10 @@ const Book = () => {
                 }
             </div>
             <div className="cart-container">
-               <Cart cart={cart}></Cart>
+               <Cart 
+               cart={cart}
+               removeProduct = {removeProduct}
+               ></Cart>
             </div>
             </div>
         </div>

@@ -7,9 +7,13 @@ const Cart = (props) => {
     return (
         <div className='cart'>
             <h3>Selected Books</h3>
-               <p>{cart}</p>
+               <div>
+               <p>{cart.map(item => <div>{item}</div>)}</p>
+               </div>
+               <div>
                <button className='cart-choose-1'>CHOOSE 1 FOR ME</button>
-               <button className='cart-choose'>CHOOSE AGAIN</button>
+               <button onClick={() => props.removeProduct()} className='cart-choose'>CHOOSE AGAIN</button>
+               </div>
         </div>
     );
 };
