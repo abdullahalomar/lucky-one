@@ -15,7 +15,7 @@ const Book = () => {
 
     const handleAddCart = (product) => {
         // console.log(product);
-        const newCart = [...cart, product]
+        const newCart = [...cart, product.name];
         setCart(newCart);
     }
 

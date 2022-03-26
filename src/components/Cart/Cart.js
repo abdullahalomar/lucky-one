@@ -7,7 +7,9 @@ const Cart = (props) => {
     return (
         <div className='cart'>
             <h3>Selected Books</h3>
-               <p>{cart.name}</p>
+               <p>{cart}</p>
+               <button className='cart-choose-1'>CHOOSE 1 FOR ME</button>
+               <button className='cart-choose'>CHOOSE AGAIN</button>
         </div>
     );
 };

@@ -1,3 +1,29 @@
 .cart{
     padding: 10px 30px;
 }
+.cart-choose-1{
+    height: 30px;
+    width: 150px;
+    border: 2px solid rgb(66, 99, 197);
+    border-radius: 15px;
+    background-color: rgb(66, 99, 197);
+    color: rgb(255, 255, 255);
+}
+.cart-choose-1:hover{
+    background-color: rgb(0, 54, 136);
+    color: rgb(223, 223, 223);
+}
+.cart-choose{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 130px;
+    border: 2px solid rgb(66, 99, 197);
+    border-radius: 15px;
+    background-color: rgb(66, 99, 197);
+    color: rgb(255, 255, 255);
+}
+.cart-choose:hover{
+    background-color: rgb(0, 54, 136);
+    color: rgb(223, 223, 223);
+}
