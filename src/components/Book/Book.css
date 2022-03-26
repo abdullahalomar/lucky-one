@@ -12,4 +12,11 @@ span{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    margin: 50px 50px;
+}
+
+@media screen and (min-width:915) {
+    .products-container{
+        grid-template-columns: repeat(1fr);
+    }
 }

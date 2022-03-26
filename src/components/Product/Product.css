@@ -4,6 +4,7 @@
     border: 2px solid gray;
     border-radius: 8px;
     position: relative;
+    margin-bottom: 20px;
 }
 .product img{
       width: 240px;
