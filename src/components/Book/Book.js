@@ -21,6 +21,13 @@ const Book = () => {
     const removeProduct = () => {
         setCart([]);
     }
+    
+    const chooseOneItem = () => {
+        const oneItem = [...cart][Math.floor(Math.random()*[...cart].length)];
+         if(oneItem){
+             setCart([oneItem]);
+         }
+        }
 
     return (
         <div >
@@ -39,6 +46,7 @@ const Book = () => {
                <Cart 
                cart={cart}
                removeProduct = {removeProduct}
+               chooseOneItem = {chooseOneItem}
                ></Cart>
             </div>
             </div>

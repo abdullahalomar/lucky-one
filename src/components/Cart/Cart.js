@@ -6,12 +6,12 @@ const Cart = (props) => {
     
     return (
         <div className='cart'>
-            <h3>Selected Books</h3>
-               <div>
-               <p>{cart.map(item => <div>{item}</div>)}</p>
+            <h3>Selected Books</h3> 
+               <div className='cart-item'>
+               <h5>{cart.map(item => <div>{item}</div>)}</h5>
                </div>
                <div>
-               <button className='cart-choose-1'>CHOOSE 1 FOR ME</button>
+               <button onClick={() => props.chooseOneItem()} className='cart-choose-1'>CHOOSE 1 FOR ME</button>
                <button onClick={() => props.removeProduct()} className='cart-choose'>CHOOSE AGAIN</button>
                </div>
         </div>
