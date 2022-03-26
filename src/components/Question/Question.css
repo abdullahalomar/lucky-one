@@ -1,0 +1,14 @@
+.question-ans{
+    display: flex;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: rgb(235, 223, 207);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.answer{
+    border: 3px solid rgb(161, 113, 113);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 7px;
+}
