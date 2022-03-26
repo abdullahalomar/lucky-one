@@ -1,8 +1,9 @@
 .product{
     width: 254px;
-    height: 430px;
+    height: 440px;
     border: 2px solid gray;
     border-radius: 8px;
+    position: relative;
 }
 .product img{
       width: 240px;
@@ -18,4 +19,15 @@
     font-weight: 400px;
     font-size: 21px;
     margin-top: 7px;
+}
+.cart-button{
+    width: 100%;
+    background: rgb(241, 171, 79);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.cart-button:hover{
+    background-color: rgb(223, 81, 39);
 }
