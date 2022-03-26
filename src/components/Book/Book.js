@@ -14,6 +14,8 @@ const Book = () => {
 
     const handleAddCart = (product) => {
         console.log(product);
+        const newCart = [...cart, product]
+        setCart(newCart);
     }
 
     return (
@@ -31,6 +33,7 @@ const Book = () => {
             </div>
             <div className="cart-container">
                <h3>Selected Books</h3>
+               <p>{cart.length}</p>
             </div>
             </div>
         </div>
