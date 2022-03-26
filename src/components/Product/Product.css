@@ -1,0 +1,21 @@
+.product{
+    width: 254px;
+    height: 430px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.product img{
+      width: 240px;
+      height: 286px;
+      border-radius: 8px;
+      margin: 7px;
+}
+.product-info{
+    margin: 0 14px;
+}
+.product-name{
+    line-height: 25px;
+    font-weight: 400px;
+    font-size: 21px;
+    margin-top: 7px;
+}
